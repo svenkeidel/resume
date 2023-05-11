@@ -5,15 +5,12 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='Personal Homepage')
+        meta(name='author', content='Sven Keidel')
 
-        title Resume - Start Bootstrap Theme
+        title Sven Keidel
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
-
-        // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
 
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
@@ -27,9 +24,9 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Clarence Taylor
+                span.d-block.d-lg-none Sven Keidel
                 span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/portrait.jpg', alt='...')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarResponsive.collapse.navbar-collapse
@@ -37,13 +34,21 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                        a.nav-link.js-scroll-trigger(href='#qualifications') Qualifications
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Education
+                        a.nav-link.js-scroll-trigger(href='#employment-history') Employment History
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                        a.nav-link.js-scroll-trigger(href='#publications') Publications
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                        a.nav-link.js-scroll-trigger(href='#research-projects') Research projects
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#reviewing') Reviewing
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#teaching') Teaching
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#supervision') Supervision
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#funding') Funding
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Awards
 
@@ -54,197 +59,410 @@ html(lang='en')
             section#about.resume-section
                 .resume-section-content
                     h1.mb-0
-                        | Clarence 
-                        span.text-primary Taylor
+                        | Sven Keidel
+                    .subheading
+                        | Hochschulstr. 10, 64289 Darmstadt, Germany
                     .subheading.mb-5
-                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
-                        a(href='mailto:name@email.com') name@email.com
-                    p.lead.mb-5
-                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-                    .social-icons
-                        a.social-icon(href='#!')
-                            i.fab.fa-linkedin-in
-                        a.social-icon(href='#!')
-                            i.fab.fa-github
-                        a.social-icon(href='#!')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#!')
-                            i.fab.fa-facebook-f
+                        a(href='mailto:sven.keidel@tu-darmstadt.de') sven.keidel@tu-darmstadt.de
+                        | ,
+                        a(href='https://keybase.io/svenkeidel') GPG Key
+                    p.mb-2
+                        | I am a computer science researcher, mathematician, and musician.
+                        | I work as a postdoctoral researcher in the software technology group at TU Darmstadt in Germany.
+                        | Prior to that, I worked as a PhD student at JGU Mainz under supervision of Prof. Sebastian Erdweg.
+                    p.mb-2
+                        | In my research, I develop techniques that simplify the design and implementation of static analyses.
+                        | Static analyses are tools that provide information about programs by inspecting the source code without running them.
+                        | They are used in integrated development environments, continuous integration servers, and compilers.
+                        | A challenge in the design of such static analyses is to ensure that the analysis results are reliable (sound).
+                        | However, rigorously proving that a static analysis is sound, is a difficult and laborious task.
+                        | To this end, I develop techniques that simplify the development and soundness proof of static analyses. The core principle is to develop analyses from modular and reusable building blocks, such that the soundness proof becomes compositional.
+                    p.mb-2
+                        | Besides my main area of research, my research interests are proof techinques, category theory, type and effect systems.
+                        | In my spare time I explore the vineyards of Mainz by bike and enjoy the nature.
+                        | When I am at home, I like to play piano and bake delicious artisan sourdough bread.
 
             hr.m-0
 
-            // Experience
-            section#experience.resume-section
-               .resume-section-content
-                    h2.mb-5 Experience
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-                        .flex-shrink-0
-                            span.text-primary March 2013 - Present
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-                        .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
-                        .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-                        .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
-
+            // Qualifications
+            section#qualifications.resume-section
+              .resume-section-content
+                h2.mb-5 Qualifications
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Doctoral Degree in Computer Science
+                    .subheading.mb-3 Johannes Gutenberg-Universit&auml;t, Germany
+                    div
+                      | Thesis: Modular Specification and Compositional Soundness of Abstract Interpreters
+                    div Advisor: Sebastian Erdweg
+                    div Grade: Summa Cum Laude
+                  .flex-shrink-0
+                    span.year 2021
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Master of Science in Computer Science
+                    .subheading.mb-3 Technische Universit&auml;t Darmstadt, Germany
+                    div Thesis: A disintegrated development environment
+                    div Advisor: Sebastian Erdweg
+                    div Grade: 1.82
+                  .flex-shrink-0
+                    span.year 2015
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Bachelor of Science in Computer Science
+                    .subheading.mb-3 Technische Universit&auml;t Darmstadt, Germany
+                    div Thesis: Code Completion for JavaScript with N-Grams
+                    div Advisor: Sebastian Proksch
+                    div Grade: 2.20
+                  .flex-shrink-0
+                    span.year 2013
+            hr.m-0
+            // Employment History
+            section#employment-history.resume-section
+              .resume-section-content
+                h2.mb-5 Employment History
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                  .flex-grow-1
+                    h3.mb-0 Technische Universit&auml;t Darmstadt, Germany
+                    .subheading.mb-0 Postdoc, Computer Science
+                    div Advisor: Mira Mezini
+                  .flex-shrink-0
+                    span.year 2020 - Present
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                  .flex-grow-1
+                    h3.mb-0 Johannes Gutenberg-Universit&auml;t, Germany
+                    .subheading.mb-0 PhD student, Computer Science
+                    div Advisor: Sebastian Erdweg
+                  .flex-shrink-0
+                    span.year 2019 - 2020
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                  .flex-grow-1
+                    h3.mb-0 Technische Universiteit Delft, The Netherlands
+                    .subheading.mb-0 PhD student, Computer Science
+                    div Advisor: Sebastian Erdweg
+                  .flex-shrink-0
+                    span.year 2016 - 2019
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                  .flex-grow-1
+                    h3.mb-0 Technische Universit&auml;t Darmstadt, Germany
+                    .subheading.mb-0 PhD student, Computer Science
+                    div Advisor: Sebastian Erdweg
+                  .flex-shrink-0
+                    span.year 2015 - 2016
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                  .flex-grow-1
+                    h3.mb-0 Technische Universit&auml;t Darmstadt, Germany
+                    .subheading.mb-0 Master and Bechelor in Computer Science
+                  .flex-shrink-0
+                    span.year 2010 - 2015
+            hr.m-0
+            // Publications
+            section#publications.resume-section
+              .resume-section-content
+                h2.mb-5 Publications
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Modular Abstract Definitional Interpreters for WebAssembly
+                    .subheading.mb-0 Katharina Brandl, Sebastian Erdweg, Sven Keidel, Nils Hansen
+                    div European Conference on Object-Oriented Programming (ECOOP). ACM
+                    div
+                      | [
+                      a(href='assets/papers/sturdy_wasm.pdf') draft pdf
+                      | ]
+                  .flex-shrink-0
+                    span.year 2023
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Modular Specification and Compositional Soundness of Abstract Interpreters
+                    .subheading.mb-0 Sven Keidel
+                    div PhD Dissertation. JGU Mainz.
+                    div
+                      | Grade Summa Cum Laude (with highest praise), received an award of the Dres. G&ouml;bel-Stiftung.
+                    div
+                      | [
+                      a(href='assets/theses/sven_keidel.pdf') pdf
+                      | ]
+                  .flex-shrink-0
+                    span.year 2021
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 A Systematic Approach to Abstract Interpretation of Program Transformations
+                    .subheading.mb-0 Sven Keidel and Sebastian Erdweg
+                    div Verification, Model Checking, and Abstract Interpretation (VMCAI). Springer.
+                    div
+                      | [
+                      a(href='assets/papers/program-trans-analysis.pdf') pdf
+                      | ]
+                  .flex-shrink-0
+                    span.year 2020
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Sound and Reusable Components for Abstract Interpretation
+                    .subheading.mb-0 Sven Keidel and Sebastian Erdweg
+                    div Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA). ACM.
+                    div
+                      | [
+                      a(href='https://doi.org/10.1145/3360602') pdf
+                      | ]
+                      |                                  [
+                      a(href='https://youtu.be/uCM54R3ab-Q') Talk
+                      | ]
+                  .flex-shrink-0
+                    span.year 2019
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Compositional Soundness Proofs of Abstract Interpreters
+                    .subheading.mb-0 Sven Keidel, Casper Bach Poulsen, and Sebastian Erdweg
+                    div International Conference on Functional Programming (ICFP). ACM
+                    div
+                      | [
+                      a(href='https://doi.org/10.1145/3236767') pdf
+                      | ]
+                      |                                  [
+                      a(href='https://www.youtube.com/watch?v=zOqSlHAMGt4') Talk
+                      | ]
+                  .flex-shrink-0
+                    span.year 2018
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Toward Abstract Interpretation of Program Transformations
+                    .subheading.mb-0 Sven Keidel and Sebastian Erdweg
+                    div International Workshop on Meta-Programming Techniques and Reflection. ACM.
+                    div
+                      | [
+                      a(href='assets/papers/toward-transformation-abstract-interpretation.pdf') pdf
+                      | ]
+                  .flex-shrink-0
+                    span.year 2017
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 The IDE Portability Problem and its Solution in Monto
+                    .subheading.mb-0 Sven Keidel, Wulf Pfeiffer, and Sebastian Erdweg
+                    div Proceedings of Software Language Engineering (SLE). ACM.
+                    div
+                      | [
+                      a(href='assets/papers/monto.pdf') pdf
+                      | ]
+                  .flex-shrink-0
+                    span.year 2016
             hr.m-0
 
-            // Education
-            section#education.resume-section
-                .resume-section-content
-                    h2.mb-5 Education
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
-                        .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
-                        .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
-
-            hr.m-0
-
-            // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-sass
-                        li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
-                            i.fab.fa-wordpress
-                        li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
-                        li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Mobile-First, Responsive Design
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Browser Testing & Debugging
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Functional Teams
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile Development & Scrum
-
-            hr.m-0
-
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
+            // Research Projects
+            section#research-projects.resume-section
+              .resume-section-content
+                h2.mb-5 Research Projects
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Sturdy
                     p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                      a(href='https://gitlab.rlp.net/plmz/sturdy.scala') Sturdy
+                      |  is a modular big-step abstract interpretation framework implemented in Scala.
+                      |  Abstract interpretation is a form of static program analysis that evaluates the analyzed program to abstract values.
+                      |  These abstract values represent program properties which hold for all possible program executions.
+                      |  Abstract interpreters can be used to find bugs, validate security, or enable compiler optimizations.
+                  img.flex-shrink-0(src='assets/img/sturdy.svg' style='width:20%')
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 OPAL
+                    p
+                      a(href='https://www.opal-project.de/') OPAL
+                      |  is an analysis framework for Java with a focus on precision and scalability.
+                      |  Analyses in OPAL can be implemented modularly from loosely coupled modules.
+                      |  These modules do not call each other directly, but exchange information via a central data store called
+                      em blackboard
+                      |  .
+                      |  A modular analysis implementation allows to replace modules to fine tune precision and scalability of the analysis.
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Monto
+                    p
+                      a(href='https://monto-editor.github.io/about/') Monto
+                      |  decouples editor services from their graphical front-end.
+                      |  In particular, modern IDEs support multiple programming languages via plug-ins.
+                      |  However, developing a high-quality language plug-in requires a considerable development effort and individual plug-ins are not reusable in other IDEs. This problem is called the _IDE portability problem_.
+                      |  Monto provides a solution to the IDE portability problem based on a language-independent and IDE-independent intermediate representation (IR) for editor services such as syntax highlighting, error messages, and code completion. This IR enables language services that support multiple IDEs with one plug-in.
+                  img.flex-shrink-0(src='assets/img/monto.png' style='width:20%')
+            hr.m-0
+            // Reviewing
+            section#reviewing.resume-section
+              .resume-section-content
+                h2.mb-2 Reviewing
+                ul.fa-ul.mb-0
+                  li
+                    a(href='https://2023.ecoop.org/committee/ecoop-2023-research-papers-extended-review-committee') ECOOP&apos;23 External Review
+                  li
+                    a(href='https://2022.ecoop.org/committee/ecoop-2022-papers-extended-review-committee-') ECOOP&apos;22 Extended Review Committee
+                    |  and
+                    a(href='https://2022.ecoop.org/committee/ecoop-2022-artifacts-artifact-evaluation-committee') Artifact Evaluation
+                  li
+                    a(href='https://conf.researchr.org/track/icse-2022/icse-2022-papers') ICSE&apos;22 (invited by M. Mezini)
+                  li
+                    a(href='https://2021.splashcon.org/track/splash-2021-oopsla') OOPSLA&apos;21 (invited by M. Mezini)
+                  li
+                    a(href='https://conf.researchr.org/home/sle-2020') SLE&apos;20 (invited by S. Erdweg)
+                  li
+                    a(href='https://dl.acm.org/journal/tosem') TOSEM&apos;20
+                  li
+                    a(href='https://icfp20.sigplan.org/') ICFP&apos;20 (invited by S. Erdweg)
+                  li
+                    a(href='https://conf.researchr.org/committee/sle-2019/sle-2019-papers-artifact-evaluation-committee') SLE&apos;19 Artifact Evaluation
+                  li
+                    a(href='https://2019.splashcon.org/track/splash-2019-oopsla') OOPSLA&apos;19 (invited by S. Erdweg)
+                  li
+                    a(href='https://icfp19.sigplan.org/') ICFP&apos;19 (invited by S. Erdweg),
+                  li
+                    a(href='https://icfp19.sigplan.org/committee/icfp-2019-research-artifacts-artifact-evaluation-committee') ICFP&apos;19 Artifact Evaluation
+                  li
+                    a(href='https://conf.researchr.org/committee/sle-2018/papers-artifact-evaluation-committee') SLE&apos;18 Artifact Evaluation
+                  li
+                    a(href='http://www.ase2016.org/') ASE&apos;16 (invited by S. Erdweg)
+            hr.m-0
+            // Teaching
+            section#teaching.resume-section
+              .resume-section-content
+                h2.mb-5 Teaching
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-3 Lecturing
+                    .mb-2
+                      .subheading.mb-0 Lecturer and Organizer
+                      ul.fa-ul.mb-0
+                        li
+                          a(href='https://www.stg.tu-darmstadt.de/teaching_stg/courses_stg/ws_2021___22/program_analysis/program_analysis_1.en.jsp') Static Program Analysis
+                          | , Winter 2021, TU Darmstadt
+                    div
+                      .subheading.mb-0 Teaching Assistance
+                      ul.fa-ul.mb-0
+                        li
+                          | Introduction to Programming, Winter 2020, JGU Mainz
+                        li
+                          | Program Analysis Seminar, Winter 2020, JGU Mainz
+                        li
+                          | Program Analysis Lab, Summer 2020, JGU Mainz
+                        li
+                          a(href='https://www.informatik.uni-mainz.de/lehrveranstaltungen/?event_id=373954785622291') Program Analysis
+                          | , Summer 2020, JGU Mainz
+                        li
+                          | Program Analysis Seminar, Winter 2019, JGU Mainz
+                        li
+                          | Program Analysis Lab, Summer 2019, JGU Mainz
+                        li
+                          a(href='https://www.informatik.uni-mainz.de/lehrveranstaltungen/?event_id=371333106662956') Program Analysis
+                          | , Summer 2019, JGU Mainz
+                        li
+                          a(href='http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=41635') Dynamic and Static Program Analysis for Software Security
+                          | , Winter 2018, TU Delft
+                        li
+                          a(href='http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=41635') Dynamic and Static Program Analysis for Software Security
+                          | , Winter 2017, TU Delft
+                        li
+                          a(href='http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=41656') Seminar Programming Languages
+                          | , Winter 2016, TU Delft
+                        li
+                          a(href='http://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=41635') Dynamic and Static Program Analysis for Software Security
+                          | , Winter 2016, TU Delft
+            hr.m-0
+            // Supervision
+            section#supervision.resume-section
+              .resume-section-content
+                h2.mb-5 Supervision
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    .mb-3
+                      h3.mb-1 PhD Students
+                      ul.fa-ul.mb-0
+                        li
+                          strong
+                            a(href='https://www.stg.tu-darmstadt.de/main_stg/staff_stg/dominik_helm_1.en.jsp') Dominik Helm
+                          | , cosupervised with M. Mezini, PhD Thesis:
+                          a(href='https://doi.org/10.26083/tuprints-00023220') Modular Collaborative Program Analysis
+                        li
+                          strong
+                            a(href='https://www.stg.tu-darmstadt.de/main_stg/staff_stg/tobias_roth_1.en.jsp') Tobias Roth
+                          | , cosupervised with M. Mezini
+                    .mb-3
+                      h3.mb-1 Bachelor and Master Students
+                      ul.fa-ul.mb-0
+                        li
+                          strong Tomislav Pree
+                          | , Bachelor Thesis:
+                          a(href='assets/theses/tomislav_pree.pdf') Debugging Static Analyses in Sturdy
+                          | , JGU Mainz, 2020.
+                        li
+                          strong Tobias Homb&uuml;cher
+                          | , Bachelor Thesis:
+                          a(href='assets/theses/tobias_hombuecher.pdf') Type and Control-Flow Analysis for Scheme in Sturdy
+                          | , JGU Mainz, 2020.
+                        li
+                          strong Jens de Waard
+                          | , Master Thesis:
+                          a(href='assets/theses/jens_de_waard.pdf') Soundness Proofs of Static Analyses in Coq
+                          | , TU Delft, 2019.
+                        li
+                          strong Jente Hidskes
+                          | , Master Thesis:
+                          a(href='assets/theses/jente_hidskes.pdf')
+                            | Sound Interprocedural Static Analysis for Stratego based on Regular Tree Grammars
+                          | , TU Delft, 2018.
+                        li
+                          strong Matthijs Bijman
+                          | , Bachelor Thesis:
+                          a(href='assets/theses/matthijs_bijman.pdf') Sound Abstract Interpretation of JavaScript
+                          | , TU Delft, 2018.
+                        li
+                          strong Wouter Raateland
+                          | , Bachelor Thesis:
+                          a(href='assets/theses/wouter_raateland.pdf') Sound Abstract Interpretation of Java
+                          | , TU Delft, 2018.
+                        li
+                          strong Hans Becker
+                          | , Master Thesis:
+                          a(href='assets/theses/hans_becker.pdf') Interactive services in a disintegrated development environment
+                          | , TU Darmstadt, 2017.
+                        li
+                          strong Stefan Kockmann
+                          | , Bachelor Thesis:
+                          a(href='assets/theses/stefan_kockmann.pdf') File dependencies in a disintegrated development environment
+                          | , TU Darmstadt, 2016.
+            hr.m-0
 
+            // Funding
+            section#funding.resume-section
+              .resume-section-content
+                h2.mb-5 Funding
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Cross-Language Library-Aware Security Analysis of Complex Software Systems
+                    .subheading.mb-0 Principled Investigator: Mira Mezini, Coauthor: Sven Keidel
+                    div ATHENE: National Research Center for Applied Cybersecurity
+                    div
+                      a(href='https://www.athene-center.de/en/research/research-areas/automatic-vulnerability-scanning-and-verification') Mission: Automatic Vulnerability Scanning and Verification (AVSV)
+                  .flex-shrink-0
+                    span.year 2022
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0
+                      | Correct, Efficient, and Flexible Fixpoint Algorithms for Big-Step Abstract Interpreters
+                    .subheading.mb-0 Principled Investigator: Sebastian Erdweg, Coauthor: Sven Keidel
+                    div Deutsche Forschungs Gesellschaft (DFG)
+                    div
+                      a(href='https://gepris.dfg.de/gepris/projekt/451545561') project 451545561
+                  .flex-shrink-0
+                    span.year 2021
             hr.m-0
 
             // Awards
             section#awards.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
+              .resume-section-content
+                h2.mb-5 Awards
+                .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                  .flex-grow-1
+                    h3.mb-0 Dissertation Award
+                    div
+                      a(href='https://www.foerdern-und-stiften.uni-mainz.de/johannes-gutenberg-universitaetsstiftung/treuhandstiftungen-unter-dem-dach-der-jgu-stiftung/dres-elke-und-rainer-goebel-stiftung/') Dres. Elke und Rainer G&ouml;bel-Stiftung
+                  .flex-shrink-0
+                    span.year 2022
+            hr.m-0
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')

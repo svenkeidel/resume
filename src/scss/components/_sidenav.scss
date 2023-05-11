@@ -1,6 +1,6 @@
-// 
+//
 // Sidenav
-// 
+//
 
 #sideNav {
     padding-left: 1rem;
@@ -14,10 +14,16 @@
 
     .navbar-toggler {
         &:focus {
-            outline-color: lighten($primary, 15%);
+            outline-color: lighten($primary, 90%);
         }
     }
 }
+
+.navbar-dark {
+    --bs-navbar-color: #343a40;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.5);
+}
+
 
 @include media-breakpoint-up(lg) {
     #sideNav {

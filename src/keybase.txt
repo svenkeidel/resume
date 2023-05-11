@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/svenkeidel
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://svenkeidel.de
+  * I am svenkeidel (https://keybase.io/svenkeidel) on keybase.
+  * I have a public key with fingerprint 5142 E66C 2D02 EE31 8961  61D8 C023 6AA3 9E23 CB67
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01016dae4e79c6bef07e410d59d5e052006d1e16e6111bbd82e6d53dae2e874636610a",
+      "fingerprint": "5142e66c2d02ee31896161d8c0236aa39e23cb67",
+      "host": "keybase.io",
+      "key_id": "c0236aa39e23cb67",
+      "kid": "01016dae4e79c6bef07e410d59d5e052006d1e16e6111bbd82e6d53dae2e874636610a",
+      "uid": "96997ec27180e17ef41ea8c687e45119",
+      "username": "svenkeidel"
+    },
+    "service": {
+      "hostname": "svenkeidel.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1683813508,
+  "expire_in": 157680000,
+  "prev": "69c9392debb8f6608b3423db0b3f4bb58210eeedaa096634e1ce70b001b4aa05",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkntQVFUcx3d5DdDwSkfaBiQujc7EY+65j7P3LlGKLa40lg9kchN37+Ms3gXv
+wu6y7YqI1OhINsQ4JPmYoJgIZUprIYgcyJRoh6TCCW1oaFBakdEVLXNAk+5l8q/6
+s/PPmfM9n+/3/H6/OY1x4Zpo7VcZ9rb3MoZLtcPXeY247Y+j1RjvEH2YoRorQ4sb
+KheRy20pk0TMgOEAB1DkEIX0rAB5ZMP1iAK4SLMijXCawHEoAgQgggAAnhcZAkGR
+JhUHgRg9BUkIAc5hWZhNkkuRs8IpyW4llgaUAkKBEHECIRIwLAQQiIyAEyTkOJJF
+BCnwUK8YdzhcqkMpjudcKEdyKJpysCyW9x/8/1x31WIcC1lWjwRCDxgcAT2yUQBx
+jAAZJZUGgFVBF3LK3E6k0C4PksuQJKJyrCYLU3SPJCB1tGov/2JyRKTYK5wOt0Nw
+lCtXO9zuCpdBtbp9FSr7GuIt/6RYeEkWlVEqDg9yuiSHjBmAQgpuSY0FkCEZQNI4
+k4Uhb4XkRBZJJWg9ZHBlqe8gjxIJWYF9lWQJEfE8Y4MQZ3iSIkiRx3nSRvE8zRAA
+RwiJHIezEJIUAgLS4zyOA55SNBpTG6uUHZiBVOrkStWWpFKZc1c5EVYTWx9GRmi0
+0ZrUZekRG/OD5dlhIVDPcZcffb/IMPXvaWJjEh8pcbqEhZdMg1uu3B4Knv/xkmCl
+3jUzm04Qq+O/fjKqo5b1VdZIvrhjLW9mtBaHzqRdYxhj9Se/nbkp/9TP7R43D7zY
+HNZfeXHZBy+v+jPFTv2sWT46mNxtnb4WYfm4+Fsfs/p6Qf4Pm3LPvh3+RZN3YO6F
+vr9C/Rvjeqw6T/r02izCtP+I506XmF239dnI3QZvvHb2s/0pzIfH4Lk1KdoN1txL
+W8PrJhpru7M2HJmc+M4iL8znpTvPjXRfvZ1Zcj5t4F57p+XE4THv3LjZFDs5E3Cw
+0zM33jcWCQeLop679U1b+uNzdw/tmckMPtNUcpZ+vninPVAUXuSvIgdbHugKbsiF
+hn0zOn8XlDr96+7M5q9qz9ueWhj4snCqdS9/v379iu6bvSnVo16hZ7zO2FDWPOM3
+NxzA2urj9/hTK3eNfR6aWrLy+33VpweCD4zDrxwvkO3JkYHcC1ep3gnbEzF9nU9z
+hdZEQy1hTAjPHvInHW/+1dhwK7Np6OT2pPbNK09N1993zN+LqSn+Ze1wY0dtWsGu
+p2K6TleNhHoeC86+9bBLN+oP9Mas3xtmXz6UOnvljUMt70QHEw+QTVvGTKlTv3Na
+52TI2px24aTn9aVTY6fmTQveEaZ2BB+sqZMfThvz7Hc/2rykeOzThDV9IV1SyWAU
+27x0XY7WnJ7cHTAV+fIuHu4gzVOt2y7/DQ==
+=QiEo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/svenkeidel
+
+==================================================================
